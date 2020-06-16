@@ -119,12 +119,12 @@
                 "value": 0.00074
             }
         ]
-        data.columns = [
-            "letter",
-            "frequency"
-        ]
+        // data.columns = [
+        //     "letter",
+        //     "frequency"
+        // ]
         data.format = "%";
-        data.y = "↑ Frequency";
+        // data.y = "↑ Frequency";
         const margin = ({ top: 30, right: 0, bottom: 30, left: 40 })
         const x = d3.scaleBand()
             .domain(d3.range(data.length))
